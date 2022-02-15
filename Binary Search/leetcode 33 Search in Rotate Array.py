@@ -1,3 +1,4 @@
+# 根据中间值和左边届值比较，得到哪边是已经排好序的，然后再判断目标值是否在排好续中的序列当中，来更新左右边界。
 # if nums[mid] == target then return mid
 # if nums[mid] > nums[left], means the left side is Sorted.
     # let's judge the target whether in  the sorted ascending side of the Array.
